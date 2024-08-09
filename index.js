@@ -880,7 +880,18 @@ ${metadata.desc}`;
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `*ᴛʜᴀɴᴋs ғᴏʀ ᴄʜᴏᴏɪsɪɴɢ ᴇʀɪɴᴀ ᴍᴅ🧚🏻!!*`;
+                let cmsg = `╔───⬡
+┃ ┃⬡Gojou-MD⬡┃
+┃    Prefix : [ ${prefixe} ]
+┃    *GOJOU MD IS ACTIVE NOW*
+┃    Total Commandes : ${evt.cm.length}
+︎┃    Mode :${md} 
+┃  •°• https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z
+┌┤✑  Thanks for Chooising Gojou-MD 
+│└────────────┈ ⳹        
+│©2024-2099 David Cyril 
+└─────────────────┈ ⳹
+╚─────────────────···▸▸`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
